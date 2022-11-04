@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+
+Country = ['Brazil', 'Russia', 'India', 'China', 'South Africa']
+GDP_Growth = [270.7,188.0,731.1,3970.2,166.1]
+
+New_Colors = ['green','blue','purple','brown','teal']
+plt.bar(Country,GDP_Growth, color=New_Colors)
+plt.title('BRICS+ Cumulative Growth 1990-2020')
+plt.xlabel('Country')
+plt.ylabel('GDP Relative Growth')
+plt.show()
